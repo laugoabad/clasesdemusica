@@ -95,7 +95,7 @@ nav {
 /*-------------------------------------------------------------*/
 @media (min-width: 768px) {
   .navbar-brand img {
-    width: 6em;
+    width: 4em;
   }
 
   nav {
