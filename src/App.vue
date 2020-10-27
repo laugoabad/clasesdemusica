@@ -79,7 +79,7 @@ nav {
 }
 
 .navbar-brand img {
-  width: 4em;
+  width: 2em;
 }
 
 
@@ -95,7 +95,7 @@ nav {
 /*-------------------------------------------------------------*/
 @media (min-width: 768px) {
   .navbar-brand img {
-    width: 4em;
+    width: 2em;
   }
 
   nav {
