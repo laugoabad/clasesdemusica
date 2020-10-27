@@ -115,7 +115,7 @@ nav {
   }
 
   nav {
-    padding: 3em;
+    padding: 2.4em;
     .nav-item a {
       font-size: 1.8em;
       padding: 0.5em 1.4em 0.4em 1.4em;
