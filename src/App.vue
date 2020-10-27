@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../public/css/styles.scss";
+@import "./css/styles.scss";
 
 #app {
   -webkit-font-smoothing: antialiased;
@@ -79,7 +79,7 @@ nav {
 }
 
 .navbar-brand img {
-  width: 10em;
+  width: 4em;
 }
 
 

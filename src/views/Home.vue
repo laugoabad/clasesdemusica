@@ -20,8 +20,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+
 
 export default {
   name: 'Home',
@@ -38,7 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../public/css/styles.scss";
+@import "./../css/styles.scss";
 
 .fondo {
   position: relative;

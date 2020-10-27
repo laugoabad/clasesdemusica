@@ -208,7 +208,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../public/css/styles.scss";
+@import "./../css/styles.scss";
 .container {
   width: 80%;
   margin-left: auto;
