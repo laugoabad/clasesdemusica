@@ -103,7 +103,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./../css/styles.scss";
+@import "./../../public/css/styles.scss";
 .btn {
   padding: 0.5em 1.6em;
   margin-top: 2em;

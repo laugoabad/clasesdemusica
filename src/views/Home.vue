@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./../css/styles.scss";
+@import "./../../public/css/styles.scss";
 
 .fondo {
   position: relative;

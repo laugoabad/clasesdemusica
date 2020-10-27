@@ -45,7 +45,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./css/styles.scss";
+@import "./../public/css/styles.scss";
 
 #app {
   -webkit-font-smoothing: antialiased;
@@ -68,9 +68,9 @@ nav {
 
   .nav-item a {
     padding: 0.6em 0.6em 0.2em 0.6em;
-    margin: 1em 0.16em 0.16em 0.16em;
-    font-size: 1.1em;
-    letter-spacing: 0.2em;
+    margin: 1em 0.1em 0.16em 0.1em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
   }
   .nav-item a:hover {
     text-decoration: none;
@@ -79,7 +79,7 @@ nav {
 }
 
 .navbar-brand img {
-  width: 2em;
+  width: 1.4em;
 }
 
 
@@ -100,10 +100,9 @@ nav {
 
   nav {
     padding: 0.8em;
-    letter-spacing: 0.3em;
     .nav-item a {
-      font-size: 1.6em;
-      letter-spacing: 0.3em;
+      font-size: 1.4em;
+      letter-spacing: 0.2em;
       padding: 0.5em 1.4em 0.4em 1.4em;
     }
   }
@@ -114,6 +113,15 @@ nav {
 @media (min-width: 1440px) {
   .navbar-brand img {
     width: 3em;
+  }
+
+  nav {
+    padding: 1em;
+    .nav-item a {
+      font-size: 1.8em;
+      letter-spacing: 0.3em;
+      padding: 0.5em 1.4em 0.4em 1.4em;
+    }
   }
 }
 </style>
