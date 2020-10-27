@@ -107,7 +107,7 @@
 
 <script>
 export default {
-  name: "tienda",
+  name: "blog",
   data() {
     return {
     //   leerMas: false,

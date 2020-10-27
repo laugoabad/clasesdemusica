@@ -1,11 +1,11 @@
 <template>
   <div id="app" class="container-fluid">
-    <nav class="navbar navbar-expand fixed-top p-4">
+    <nav class="navbar navbar-expand fixed-top ml-auto">
       <router-link class="navbar-brand " to="/">
-        <img src="./assets/imgs/logo.jpg" alt="hoja" />
+        <img src="./assets/imgs/logo.png" alt="hoja" />
       </router-link>
       <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto mr-auto text-center navegacion">
+        <ul class="navbar-nav ml-auto mr-auto text-center navegacion ">
           <li v-for="(item, index) of arregloRouter" :key="index" class="nav-item">
             <router-link v-bind:to="item.ruta">{{item.nombre}}</router-link>
           </li>
@@ -54,27 +54,27 @@ export default {
 }
 
 nav {
-  padding: 0.3em;
-  background-color: white;
+  padding: 1.4em;
+  background-color: rgba(256,256,256,0.6);
   a {
-    color: $off-black;
+    color: black;
+    font-weight: 600;
 
     &.router-link-exact-active {
-      color: $invierno;
+      color: black;
       text-decoration: none;
       font-weight: 800;
     }
   }
 
   .nav-item a {
-    padding: 0.6em 0.6em 0.2em 0.6em;
-    margin: 1em 0.1em 0.16em 0.1em;
-    font-size: 1em;
-    letter-spacing: 0.1em;
+    padding: 0.6em 0.2em 0.2em 0.2em;
+    font-size: 1.1em;
+    letter-spacing: 0.16em;
   }
   .nav-item a:hover {
     text-decoration: none;
-    border-top: 1px solid $invierno ;
+    border-top: 1px solid black ;
   }
 }
 
@@ -99,10 +99,9 @@ nav {
   }
 
   nav {
-    padding: 0.8em;
+    padding: 2em;
     .nav-item a {
       font-size: 1.4em;
-      letter-spacing: 0.2em;
       padding: 0.5em 1.4em 0.4em 1.4em;
     }
   }
@@ -116,10 +115,9 @@ nav {
   }
 
   nav {
-    padding: 1em;
+    padding: 3em;
     .nav-item a {
       font-size: 1.8em;
-      letter-spacing: 0.3em;
       padding: 0.5em 1.4em 0.4em 1.4em;
     }
   }
